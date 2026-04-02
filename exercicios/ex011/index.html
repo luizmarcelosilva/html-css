@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html5</title>
+</head>
+<body>
+    <h1>imagens dinanmicas</h1>
+    <p>tente abrir em outros dispositivos ou so mudar o tamanho do site na tela do pc</p>
+    <picture>
+        <source media="(max-width:600px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:900px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>apredendo a usar audio nos sites</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/GTA.mp3" type="audio/mpeg"><p>se nao carregar <a href="">abaixa ai</a></p>
+    </audio>
+</body>
+</html> 

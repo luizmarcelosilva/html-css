@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+
+
+        body{background-color: rgb(9, 0, 41);
+          font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }h1{color: rgb(104, 0, 202);}
+    h2{color: rgb(144, 53, 230);}
+    p{color: azure;}
+    

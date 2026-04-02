@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classes</title>
+    <style>
+        div{text-align: center; font-size: 50px;}
+div:hover{color: rgb(255, 0, 0);}
+
+div > p {display: none;}
+div:hover > p {display: block; color: rgb(0, 0, 0);}
+ p{background-color: forestgreen;}
+ div.teste{text-align: center; font-size: 50px;}
+ div.teste:hover{color: chartreuse;}
+div.teste > p {display: none;}
+div.teste:hover > p {display: block; color: rgb(0, 0, 0);}
+.pe{background-color: aqua;}
+    </style>
+</head>
+<body>
+<div>passe o mouse aqui 
+    <p>acho</p>
+</div>
+  <div class="teste">teste dois
+    <p class="pe">teste</p>
+  </div>
+ 
+</body>
+</html>
